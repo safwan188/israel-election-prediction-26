@@ -34,13 +34,9 @@ added to the locality file.
 
 ## `cbs/`: Central Bureau of Statistics locality data
 
-The CBS locality code is the same as the CEC's, so these files join directly to the results.
-
-| File | What it is |
-|---|---|
-| `bycode2023Sofi.xlsx` | CBS Localities File 2023 (final): for each locality its Hebrew and English name, district, locality religion code (1 Jewish, 2 Arab, 3 Bedouin tribe, 4 mixed), municipal status, population and ITM coordinates |
-| `socioeconomic_T01_authorities.xlsx` | CBS socio-economic index 2019 (publication `socio_eco19_1903`), table 1: the 255 local authorities with index value, rank and cluster 1–10 |
-| `socioeconomic_T08_rc_localities.xlsx` | the same publication, table 8: the localities inside regional councils, with index value, rank and cluster, on the scale of table 1 |
+`bycode2023Sofi.xlsx`: the CBS Localities File 2023 (final). For each locality its Hebrew and English name, district,
+locality religion code (1 Jewish, 2 Arab, 3 Bedouin tribe, 4 mixed), municipal status, population and ITM
+coordinates. The CBS locality code is the same as the CEC's, so it joins directly to the results.
 
 ## `polls/`: published polls
 
@@ -56,8 +52,10 @@ maps each column to the list it stood for on election day.
 ## `lists_2026.csv`: the lists of 2026
 
 Compiled for this project. One row per list in the 2026 polls: its key in `polls_k26.csv`, name, family, bloc (as
-the pollsters count them), surplus-agreement pair where known (C: Shas and United Torah Judaism; E: the Joint List and
-Ra'am) and whether it is on the ballot (Blue and White withdrew on 19 October 2026).
+the pollsters count them), surplus-agreement pair and whether it is on the ballot (Blue and White withdrew on
+19 October 2026). The five 2026 surplus agreements, from the Hebrew Wikipedia page of the election (section
+"הסכמי עודפים"): A Likud and Religious Zionism, B Yashar! and The Democrats, C Shas and United Torah Judaism,
+D Beyahad and Yisrael Beiteinu, E the Joint List and Ra'am.
 
 ## `lists_2013_2022.csv`: the main lists of each election
 
