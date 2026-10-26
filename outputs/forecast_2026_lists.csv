@@ -1,14 +1,14 @@
-key,list,bloc,poll share %,corrected share %,flow share %,combined share %,median seats,95% interval,P(pass)
-likud,Likud,Netanyahu,17.31,19.35,19.67,19.42,25.0,21–30,1.0
-shas,Shas,Netanyahu,6.32,6.32,8.1,6.71,8.0,4–13,0.985
-otzma_yehudit,Otzma Yehudit,Netanyahu,6.47,5.94,5.98,5.95,7.0,0–11,0.956
-utj,United Torah Judaism,Netanyahu,5.71,5.71,5.78,5.72,7.0,0–11,0.942
-religious_zionism,Religious Zionism and Zehut,Netanyahu,5.45,5.0,5.04,5.01,6.0,0–10,0.868
-amkha_yisrael,Amkha Yisrael,Netanyahu,2.83,2.6,3.22,2.73,0.0,0–7,0.375
-yashar,Yashar! with Eisenkot,Opposition,17.24,17.24,14.82,16.71,21.0,17–26,1.0
-beyahad,Beyahad,Opposition,10.05,9.23,8.64,9.1,12.0,7–16,1.0
-democrats,The Democrats,Opposition,7.3,7.3,8.4,7.54,9.0,5–14,0.996
-yisrael_beiteinu,Yisrael Beiteinu,Opposition,6.11,6.11,4.86,5.83,7.0,0–11,0.948
-hendel_zelekha,Hendel and Zelekha,Opposition,3.14,3.14,2.7,3.04,0.0,0–7,0.449
-joint_list,Joint List,Arab lists,6.61,6.61,6.26,6.53,8.0,4–12,0.981
-raam,Ra'am,Arab lists,4.6,4.6,3.83,4.43,5.0,0–9,0.766
+key,list,bloc,poll share %,corrected share %,flow share %,combined share %,median seats,60% interval,P(pass)
+likud,Likud,Netanyahu,17.31,19.35,19.67,19.42,25.0,23–27,1.0
+shas,Shas,Netanyahu,6.32,6.32,8.1,6.71,8.0,7–10,0.985
+otzma_yehudit,Otzma Yehudit,Netanyahu,6.47,5.94,5.98,5.95,7.0,5–9,0.956
+utj,United Torah Judaism,Netanyahu,5.71,5.71,5.78,5.72,7.0,5–9,0.942
+religious_zionism,Religious Zionism and Zehut,Netanyahu,5.45,5.0,5.04,5.01,6.0,4–8,0.868
+amkha_yisrael,Amkha Yisrael,Netanyahu,2.83,2.6,3.22,2.73,0.0,0–5,0.375
+yashar,Yashar! with Eisenkot,Opposition,17.24,17.24,14.82,16.71,21.0,20–23,1.0
+beyahad,Beyahad,Opposition,10.05,9.23,8.64,9.1,12.0,10–13,1.0
+democrats,The Democrats,Opposition,7.3,7.3,8.4,7.54,9.0,8–11,0.996
+yisrael_beiteinu,Yisrael Beiteinu,Opposition,6.11,6.11,4.86,5.83,7.0,6–9,0.948
+hendel_zelekha,Hendel and Zelekha,Opposition,3.14,3.14,2.7,3.04,0.0,0–5,0.449
+joint_list,Joint List,Arab lists,6.61,6.61,6.26,6.53,8.0,6–10,0.981
+raam,Ra'am,Arab lists,4.6,4.6,3.83,4.43,5.0,0–7,0.766

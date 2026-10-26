@@ -1,5 +1,5 @@
-bloc,median,95% interval,P(61+)
-Netanyahu,55.0,46–64,0.113
-Opposition,52.0,44–61,0.03
-Arab lists,13.0,5–19,0.0
-Opposition + Arab lists,65.0,56–74,0.838
+bloc,median,60% interval,P(61+)
+Netanyahu,55.0,51–59,0.113
+Opposition,52.0,48–56,0.03
+Arab lists,13.0,10–16,0.0
+Opposition + Arab lists,65.0,61–69,0.838
