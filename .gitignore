@@ -1,2 +1,20 @@
+# Jupyter and Python
 .ipynb_checkpoints/
 __pycache__/
+*.pyc
+
+# environments and editors
+.venv/
+venv/
+.vscode/
+.idea/
+
+# operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# scratch
+*.tmp
+*.bak
+*~

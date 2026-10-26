@@ -40,11 +40,35 @@ coordinates. The CBS locality code is the same as the CEC's, so it joins directl
 
 ## `polls/`: published polls
 
+One file per campaign, one row per poll, in the same layout: `knesset`, `source_no`, `date`, `days_before_election`,
+`respondents`, `commissioner` and `commissioner_en` (the outlet), `pollster` and `pollster_en` (the firm), one
+column of seats per list, and `seats_total`.
+
 | File | What it is |
 |---|---|
-| `polls_k24.csv` | 125 published polls of the March 2021 campaign (6 August 2020 to 19 March 2021): date, sample, outlet, pollster and seats per list |
-| `polls_k25.csv` | 127 published polls of the November 2022 campaign (6 January to 28 October 2022), same columns |
+| `polls_k19.csv` | 97 polls of the January 2013 campaign (29 December 2011 to 18 January 2013) |
+| `polls_k20.csv` | 158 polls of the March 2015 campaign (11 February 2014 to 13 March 2015) |
+| `polls_k21.csv` | 63 polls of the April 2019 campaign (21 February to 5 April 2019) |
+| `polls_k22.csv` | 41 polls of the September 2019 campaign (30 July to 13 September 2019) |
+| `polls_k23.csv` | 43 polls of the March 2020 campaign (16 January to 28 February 2020) |
+| `polls_k24.csv` | 125 polls of the March 2021 campaign (6 August 2020 to 19 March 2021), with sample sizes |
+| `polls_k25.csv` | 127 polls of the November 2022 campaign (6 January to 28 October 2022), with sample sizes |
 | `polls_k26.csv` | 120 national polls of the 2026 campaign (29 July to 21 October 2026), extracted from the PDFs every pollster files with the Central Elections Committee (gov.il): seats per list and, for most pollsters, the raw vote share printed beside them |
+
+The 2013–2020 files were built for this project from the poll tables of the English Wikipedia pages "Opinion
+polling for the 2013 / 2015 / April 2019 / September 2019 / 2020 Israeli legislative election", read on 26 October
+2026, and hold the polls published within 400 days of the election. A list a table shows under the threshold, or
+leaves out of a poll, is blank, and the notebook reads a blank as 0 seats. Left out: exit polls and every row
+dated on election day, and two 2015 rows whose seats add up to far more than 120 as printed (TRI for Nana 10 on
+23 December 2014, and the Knesset Channel's poll of 20 January 2015). `pollster_en` is the firm; where a page
+names only the outlet, the firm is the one the same page pairs that outlet with elsewhere in the campaign (2013:
+Haaretz with Dialog, Globes with Smith, Yedioth, Ynet and Channel 2 with Dahaf; 2015: Channel 2 with Midgam,
+Channel 10 with Dialog, Channel 1 and Walla with Teleseker, Maariv and the Knesset Channel with Panels Politics,
+Israel Hayom with New Wave). `respondents`, `commissioner` and `pollster` (the Hebrew names) are empty in these
+five files. Lists that merged or split during a campaign have a column each (`likud_beiteinu` beside `likud` and
+`yisrael_beiteinu` in 2013, `zionist_union` and `joint_list` beside their parts in 2015, `ual_taal_balad` in 2015,
+`hadash_balad` in 2013), and the notebook reads only the columns of the final line-up. Am Shalem (2013) is matched
+to the results by its ballot letters, ץ.
 
 In the 2021 and 2022 tables some columns change meaning during the campaign (a list renames or merges); the notebook
 maps each column to the list it stood for on election day.
