@@ -7,6 +7,8 @@ elections, each one with the model's parameters measured on the other six, befor
 
 ## Results
 
+### The main forecast (section 7)
+
 From the polls of 15–21 October 2026 combined with a flow model of every polling place, 20,000 simulated elections:
 
 | | Seats, median (60% interval) | Chance of 61 or more |
@@ -16,10 +18,62 @@ From the polls of 15–21 October 2026 combined with a flow model of every polli
 | Arab lists | 13 (10–16) | – |
 | Opposition and Arab lists together | 65 (61–69) | 84% |
 
+Per list, with the expected seats (the mean of the simulated elections) and the median with its 60% interval:
+
+| List | Bloc | Vote % | Expected seats | Median (60% interval) | Chance of passing |
+|---|---|---|---|---|---|
+| Likud | Netanyahu | 19.4 | 25.0 | 25 (23–27) | 100% |
+| Shas | Netanyahu | 6.7 | 8.4 | 8 (7–10) | 99% |
+| Otzma Yehudit | Netanyahu | 5.9 | 7.1 | 7 (5–9) | 96% |
+| United Torah Judaism | Netanyahu | 5.7 | 7.0 | 7 (5–9) | 94% |
+| Religious Zionism and Zehut | Netanyahu | 5.0 | 5.7 | 6 (4–8) | 87% |
+| Amkha Yisrael | Netanyahu | 2.7 | 1.9 | 0 (0–5) | 37% |
+| Yashar! with Eisenkot | Opposition | 16.7 | 21.6 | 21 (20–23) | 100% |
+| Beyahad | Opposition | 9.1 | 11.6 | 12 (10–13) | 100% |
+| The Democrats | Opposition | 7.5 | 9.4 | 9 (8–11) | 100% |
+| Yisrael Beiteinu | Opposition | 5.8 | 7.1 | 7 (6–9) | 95% |
+| Hendel and Zelekha | Opposition | 3.0 | 2.3 | 0 (0–5) | 45% |
+| Joint List | Arab lists | 6.5 | 8.1 | 8 (6–10) | 98% |
+| Ra'am | Arab lists | 4.4 | 4.8 | 5 (0–7) | 77% |
+
 The polls alone give the Netanyahu bloc 54 seats and the flow model alone 59; they are combined 78% to 22% by their
 past accuracy. Back-test of the polls model: run from the final week of each of the seven campaigns of 2013–2022,
 60 of 80 lists landed inside their 60% intervals (three in four: the intervals are wide for their label), and the
 Netanyahu bloc's result fell inside its interval all seven times.
+
+### The scenario (section 9)
+
+The same simulation with the turnouts set by hand instead of carried from the past: 64–67% in the Arab sector at the
+ballot boxes (2022: 52.6%, the 2020 record 63.7%), 75% at the Haredi boxes (2022: 73.5%), 70–72% among other Jewish
+voters (2022: 73.4%), 87–88% of the Arab sector's vote to the Arab lists (2022: 85.1%) with the Joint List taking 60%
+of it, all on the 2026 electorate from the growth trends. The Arab and Haredi lists' totals come from a three-group
+turnout model; every other list keeps its share of what is left, so the polls still decide the centre and Likud.
+
+| | Seats, median (60% interval) | Chance of 61 or more |
+|---|---|---|
+| Netanyahu bloc | 54 (51–58) | 8% |
+| Opposition | 48 (45–52) | 0.2% |
+| Arab lists | 17 (15–20) | – |
+| Opposition and Arab lists together | 66 (62–69) | 88% |
+
+| List | Bloc | Vote % | Expected seats | Median (60% interval) | Chance of passing |
+|---|---|---|---|---|---|
+| Likud | Netanyahu | 18.2 | 23.4 | 23 (21–25) | 100% |
+| Shas | Netanyahu | 7.7 | 9.7 | 10 (8–11) | 100% |
+| United Torah Judaism | Netanyahu | 6.5 | 8.1 | 8 (6–10) | 98% |
+| Otzma Yehudit | Netanyahu | 5.6 | 6.5 | 7 (5–8) | 93% |
+| Religious Zionism and Zehut | Netanyahu | 4.7 | 5.1 | 6 (4–7) | 82% |
+| Amkha Yisrael | Netanyahu | 2.6 | 1.7 | 0 (0–4) | 33% |
+| Yashar! with Eisenkot | Opposition | 15.7 | 20.1 | 20 (18–22) | 100% |
+| Beyahad | Opposition | 8.5 | 10.8 | 11 (9–13) | 100% |
+| The Democrats | Opposition | 7.1 | 8.8 | 9 (7–11) | 99% |
+| Yisrael Beiteinu | Opposition | 5.5 | 6.5 | 7 (5–8) | 92% |
+| Hendel and Zelekha | Opposition | 2.9 | 2.1 | 0 (0–5) | 40% |
+| Joint List | Arab lists | 8.3 | 10.6 | 11 (9–12) | 100% |
+| Ra'am | Arab lists | 5.6 | 6.7 | 7 (5–9) | 93% |
+
+The Arab lists gain four seats on the main forecast, three of them from the turnout and one from no Arab votes being
+wasted below the threshold; the Haredi lists gain three, mostly from the growth of their electorate.
 
 ## How it works
 
