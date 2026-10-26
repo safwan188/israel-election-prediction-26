@@ -46,7 +46,8 @@ The notebook has nine sections:
 8. **Limitations, and scoring after the election** once the results are published.
 9. **The scenario.** Hand-set turnouts for the Arab sector, the Haredi boxes and other Jewish voters, and the Arab
    lists' loyalty, applied to the 2026 electorate from the growth trends: the Arab and Haredi lists' totals come
-   from a three-group turnout model, every other list from the main forecast, rerun with the same errors.
+   from a three-group turnout model, every other list from the main forecast, rerun with the same errors; and a
+   lever for the 810,000 citizens on the roll who live abroad.
 
 ## Read it or run it
 
