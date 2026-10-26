@@ -9,16 +9,16 @@ elections, each one with the model's parameters measured on the other six, befor
 
 From the polls of 15–21 October 2026 combined with a flow model of every polling place, 20,000 simulated elections:
 
-| | Seats, median (80% interval) | Chance of 61 or more |
+| | Seats, median (90% interval) | Chance of 61 or more |
 |---|---|---|
-| Netanyahu bloc | 55 (49–61) | 11% |
-| Opposition | 52 (47–58) | 3% |
-| Arab lists | 13 (8–17) | – |
-| Opposition and Arab lists together | 65 (59–71) | 84% |
+| Netanyahu bloc | 55 (48–63) | 11% |
+| Opposition | 52 (45–59) | 3% |
+| Arab lists | 13 (6–18) | – |
+| Opposition and Arab lists together | 65 (57–72) | 84% |
 
 The polls alone give the Netanyahu bloc 54 seats and the flow model alone 59; they are combined 78% to 22% by their
 past accuracy. Back-test of the polls model: run from the final week of each of the seven campaigns of 2013–2022,
-72 of 80 lists landed inside their 80% intervals, and the Netanyahu bloc's result fell inside its interval all
+76 of 80 lists landed inside their 90% intervals, and the Netanyahu bloc's result fell inside its interval all
 seven times.
 
 ## How it works
